@@ -46,23 +46,24 @@ switch (grades) {
 
 // Exercise - 03
 
-var fruits = "apple";
+var fruit = "banana";
+let result;
 
-switch (fruits) {
+switch (fruit) {
   case "apple":
-    console.log("Q3: An apple a day keeps the doctor away.");
+    result = console.log("Q3: An apple a day keeps the doctor away.");
     break;
   case "banana":
-    console.log("Q3: Bananas are full of potassium.");
+    result = console.log("Q3: Bananas are full of potassium.");
     break;
   case "orange":
-    console.log("Q3: Yep, oranges. Great choice.");
+    result = console.log("Q3: Yep, oranges. Great choice.");
     break;
   case "strawberry":
-    console.log("Q3: Mmmm...nothing better than strawberries.");
+    result = console.log("Q3: Mmmm...nothing better than strawberries.");
     break;
   default:
-    console.log("Q3: PICK A FRUIT");
+    result = console.log("Q3: PICK A FRUIT");
     break;
 }
 
@@ -85,8 +86,5 @@ switch (percentageComplete) {
     break;
   case "100":
     console.log("Q4: You're there. Well done!");
-    break;
-
-  default:
     break;
 }
